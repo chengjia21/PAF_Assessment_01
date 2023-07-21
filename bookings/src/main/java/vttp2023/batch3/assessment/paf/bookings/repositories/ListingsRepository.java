@@ -74,6 +74,11 @@ public List<String> getCountries() {
 
 	// TODO: Task 4
 
+
+	// Native Mongo query: db.getCollection("listings").find( {_id: {$exists: true}}, {name: 1, description:1 ,"address": 1, "images.picture_url":1, price:1, amenities:1})
+
+
 	// TODO: Task 5
+	
 
 }
