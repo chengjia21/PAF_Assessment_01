@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Search Our Accomodations</h1>
+
+    <div>Country:
+        <select data-th-each="s: ${countries}" data-th-object="${s}">
+            <option data-th-text="*{countries}"></option>
+            <option data-th-text="*{countries}"></option>
+            <option data-th-text="*{countries}"></option>
+            <option data-th-text="*{countries}"></option>
+        </select>
+    </div>
+
+    <!-- <form action="#" th:action="@{/search}" th:object="${searchAccomodations}" method="GET">
+        <div>
+          <label for="numPersons">Number of persons: </label>
+          <br />
+          <input
+            type="text"
+            th:field="*{numPersons}"
+            placeholder="Enter number of persons"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="minPrice">Min</label>
+          <br />
+          <input
+            type="number"
+            th:field="*{minPrice}"
+            placeholder="Enter minPrice"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="maxPrice">Max</label>
+          <br />
+          <input
+            type="number"
+            th:field="*{maxPrice}"
+            placeholder="Enter maxPrice"
+          />
+        </div>
+        <br />
+  
+        <br /><br />
+        <button type="submit">Search</button>
+      </form> -->
+
+</body>
+
+</html>
